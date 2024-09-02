@@ -1,6 +1,7 @@
-description = 'dag'
+description = 'week'
 
-days = 1
+weeks = 1
+days = weeks * 7
 hours = days * 24
 minutes = hours * 60
 seconds = minutes * 60
