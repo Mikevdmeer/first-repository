@@ -1,8 +1,8 @@
 description = 'dag'
 
-days = 
-hours = days * 
-minutes = hours * 
-seconds = minutes * 
+days = 1
+hours = days * 60
+minutes = hours * 3600
+seconds = minutes * 216000
 
 print(f'In een {description} zitten {seconds} seconden')
